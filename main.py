@@ -1,8 +1,14 @@
-import torch
-import torch.nn as nn
-x = torch.tensor([2.0, 3.0])
-x.requires_grad_(True)
-with torch.no_grad():
-    z = x * 2
-z.sum().backward()
-print(x.grad)
+import hashlib
+import os
+import tarfile
+import zipfile
+import requests
+# a = 1
+# assert a == 2, print("a不等于2")
+# print("end")
+# cache_dir = os.path.join('..', 'data')
+# print(cache_dir)
+def zwq(folder=None):
+    data_dir = '/data/app'
+    return os.path.join('.', folder) if folder else data_dir
+print(zwq('new_app'))

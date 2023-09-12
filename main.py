@@ -1,7 +1,14 @@
-import jieba
-text = "结巴分词是一款开源的中文分词工具。"
-words = jieba.cut(text)
+import numpy as np
 
-# 将分词结果转换为列表
-word_list = list(words)
-print(word_list[0][-1])
+# 创建原始数组
+x = np.array([1, 2, 3, 4, 5, 6])
+
+# 使用 reshape 创建新数组
+y = x.reshape(2, 3)
+
+# 修改新数组
+x[0] = 100
+
+# 查看原始数组
+print(x)
+print(y)

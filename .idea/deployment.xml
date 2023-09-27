@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="cike@202.38.247.164:2099" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="cike@202.38.247.164:2099">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/cike/zwq_workspace/limu" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

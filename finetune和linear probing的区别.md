@@ -1,0 +1,1 @@
+![](./images/finetune和linear%20probing的区别.jpg)
